@@ -4,7 +4,7 @@ import ReactCalendarHeatmap from "react-calendar-heatmap";
 import "react-calendar-heatmap/dist/styles.css";
 import dayjs from "dayjs";
 import { Alert, AlertTitle, Button, Grid } from "@mui/material";
-import { Event } from "../../../types";
+import { Event } from "@/types";
 
 type Props = {
   events: Event[];
